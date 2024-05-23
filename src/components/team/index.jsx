@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./style.css"
 import { Team } from "./src/pattern/composition"
 
 export default function TeamComposition() {
