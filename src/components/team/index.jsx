@@ -1,20 +1,12 @@
-import  "./style"
+import "./styles.css"
+import { Team } from "./src/pattern/composition"
 
-import Section from "../team/components/section";
-import Content from "../team/components/content";
-import Main from "../team/components/main";
-
-function Team() {
-  return (
-    <div>
-
-      <Section />
-
-      <Content />
-
-      <Main />
-    </div>
-  );
+export default function TeamComposition() {
+    return (
+        <div className="team-container">
+            <Team.Section />
+            <Team.Content />
+            <Team.Main />
+        </div>
+    )
 }
-
-export default Team;

@@ -1,22 +1,11 @@
-import "./App.css"
+import '../src/App.css'
 
-import Banner from "./components/Layout"
-
-import Monitor from "./asssets/images/svg/monitor-svgrepo-com.svg"
-
-
+import Team from "../src/components/Team/src/pattern/composition/index.js";
 
 function App() {
   return (
     <body>
-      {/* <div className="card">
-      <h1>React Course</h1>
-      <p>Front-End Javascript</p>
-    </div> */}
-
-    <Banner title="Monitor" description="descrição" image={Monitor} />
-   
-
+       <Team />
     </body>
   );
 }
