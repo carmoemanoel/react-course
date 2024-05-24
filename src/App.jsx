@@ -1,11 +1,11 @@
 import '../src/App.css'
-import TeamComposition from './components/Team';
 
+import TeamComposition2 from './TeamTwo/srcTwo';
 
 function App() {
   return (
     <body>
-       <TeamComposition />
+       <TeamComposition2 />
     </body>
   );
 }
