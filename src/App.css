@@ -71,6 +71,14 @@
     margin: 0;
   } 
 
+  body{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+ 
+
   .layout-container{
     display: flex;
     justify-content: center;
